@@ -1,0 +1,118 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    /*max-width: 280px;*/
+}
+
+/*------HEADER------*/
+.navbar {
+    background-color: #29487d;
+}
+.navbar-brand {
+    font-size: 32px;
+    color: #fff;
+}
+.navbar-brand:hover{
+    color: #fff;
+}
+.navbar-nav a {
+    color: #fff;
+}
+    .navbar-nav a:hover {
+        color: #29487d;
+    }
+
+/*------MAIN PAGE------*/
+h3 {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 36px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+body {
+    font-size: 16px;
+}
+.body-content {
+    padding: 30px 15px 40px;
+}
+.facebook-form {
+    display: flex;
+    align-items: center;
+}
+.face-imgs {
+    margin: 20px 0;
+}
+.face-imgs img {
+    margin-right: 10px;
+}
+.form-group {
+    max-width: 420px;
+}
+.form-group input {
+    margin-top: 10px;
+}
+label {
+    font-size: 16px;
+    color: #90949c;
+}
+.face-terms {
+    font-size: 11px;
+    max-width: 310px;
+}
+#BirthDate {
+    max-width: 200px;
+}
+.gender {
+    font-size: 18px;
+    margin-right: 20px;
+    margin-left: 4px;
+}
+.btn-success {
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+    font-size: 19px;
+}
+
+/*-----FOOTER-------*/
+footer {
+    text-align: center;
+    height: auto;
+    margin-top: 25px;
+    color: #737373;
+    font-size: 12px;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        float: right;
+    }
+}
+
+
+
+
